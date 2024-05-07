@@ -3,10 +3,14 @@ package org.example;
 public class Animal {
 
     String nombre;
-    String genero
-    double peso=true;
-    Animal pareja=new;
+    String genero;
+    double peso;
+    Animal pareja;
 
+
+    public Animal(){
+
+    }
 
     public Animal(String nombre, double peso) {
         this.nombre = nombre;
